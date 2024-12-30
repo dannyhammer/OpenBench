@@ -8,7 +8,6 @@
         "compilers" : ["g++>=14", "clang++>=19"],
         "cpuflags"  : [],
         "systems"   : ["Linux"]
-
     },
 
     "test_presets" : {
