@@ -1,5 +1,5 @@
 {
-    "client_version": 32,
+    "client_version": 33,
     "client_repo_url": "https://github.com/dannyhammer/openbench",
     "client_repo_ref": "master",
 
@@ -28,19 +28,21 @@
         "BlackMarlin",
         "BoyChesser",
         "ByteKnight",
-	"Dog",
+        "Dog",
         "Ethereal",
         "FabChess",
         "Igel",
         "Obsidian",
         "Pawnocchio",
         "Polaris",
+        "Stash",
         "Stockfish",
         "Stormphrax",
         "Tantabus",
         "Toad",
         "Viridithas",
         "Yukari",
+        "bannou",
         "ice4"
     ]
 }
