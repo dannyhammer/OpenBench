@@ -14,7 +14,6 @@
     "test_presets": {
         "default": {
             "base_branch": "trunk",
-            "dev_branch": "dev",
             "book_name": "UHO_Lichess_4852_v1.epd",
             "test_bounds": "[0.00, 5.00]",
             "test_confidence": "[0.10, 0.05]",
