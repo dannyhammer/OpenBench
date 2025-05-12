@@ -19,5 +19,7 @@ Media/PGNs/*
 Media/Networks/*
 Media/Events/*
 
-webhooks.json
 *.lock
+*.epd
+
+webhooks.json
