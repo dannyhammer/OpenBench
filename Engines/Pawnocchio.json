@@ -1,6 +1,6 @@
 {
     "private": false,
-    "nps": 2200000,
+    "nps": 1000000,
     "source": "https://github.com/JonathanHallstrom/pawnocchio",
 
     "build": {
@@ -12,11 +12,11 @@
 
     "test_presets": {
         "default": {
-            "book_name": "UHO_4060_v2.epd",
-            "test_bounds": "[0.00, 5.00]",
+            "book_name": "UHO_Lichess_4852_v1.epd",
+            "test_bounds": "[0.00, 4.00]",
             "test_confidence": "[0.1, 0.05]",
-            "win_adj": "movecount=8 score=800",
-            "draw_adj": "movenumber=32 movecount=10 score=0"
+            "win_adj": "movecount=3 score=400",
+            "draw_adj": "movenumber=40 movecount=8 score=10"
         },
 
         "STC": {
@@ -35,14 +35,14 @@
             "both_options": "Threads=1 Hash=16",
             "both_time_control": "8.0+0.08",
             "workload_size": 32,
-            "test_bounds": "[-5.00, 0.00]"
+            "test_bounds": "[-3.00, 1.00]"
         },
 
         "LTC regression": {
             "both_options": "Threads=1 Hash=128",
             "both_time_control": "40.0+0.4",
             "workload_size": 8,
-            "test_bounds": "[-5.00, 0.00]"
+            "test_bounds": "[-3.00, 1.00]"
         },
 
         "STC progtest": {
@@ -54,7 +54,7 @@
 
         "LTC progtest": {
             "both_options": "Threads=1 Hash=128",
-            "both_time_control": "60.0+0.6",
+            "both_time_control": "40.0+0.4",
             "workload_size": 8,
             "test_max_games": 1000
         },
@@ -80,23 +80,23 @@
         },
 
         "STC": {
-            "dev_options": "Threads=1 Hash=8",
-            "dev_time_control": "10.0+0.10"
+            "dev_options": "Threads=1 Hash=16",
+            "dev_time_control": "8.0+0.08"
         },
 
         "MTC": {
             "dev_options": "Threads=1 Hash=32",
-            "dev_time_control": "30.0+0.30"
+            "dev_time_control": "20.0+0.20"
         },
 
         "LTC": {
-            "dev_options": "Threads=1 Hash=64",
-            "dev_time_control": "60.0+0.60"
+            "dev_options": "Threads=1 Hash=128",
+            "dev_time_control": "40.0+0.40"
         },
 
         "VLTC": {
-            "dev_options": "Threads=1 Hash=128",
-            "dev_time_control": "180.0+1.80"
+            "dev_options": "Threads=1 Hash=256",
+            "dev_time_control": "80.0+0.8"
         }
     },
 
