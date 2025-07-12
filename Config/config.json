@@ -8,7 +8,7 @@
     "require_manual_registration" : true,
     "balance_engine_throughputs"  : true,
 
-    "books" : [
+    "books": [
         "2moves_v1.epd",
         "3moves_FRC.epd",
         "4moves_noob.epd",
@@ -26,24 +26,26 @@
     "engines" : [
         "Motors",
         "4ku",
-        "Berserk",
-        "Bit-Genie",
         "BlackMarlin",
-        "Demolito",
-        "Drofa",
-        "Equisetum",
+        "BoyChesser",
+        "ByteKnight",
+        "Caps",
+        "Dog",
         "Ethereal",
         "FabChess",
-        "Halogen",
+        "GrandChess",
         "Igel",
-        "Koivisto",
-        "Laser",
-        "RubiChess",
-        "Seer",
+        "Obsidian",
+        "Pawnocchio",
+        "Polaris",
         "Stash",
         "Stockfish",
-        "Weiss",
-        "Winter",
-        "Zahak"
+        "Stormphrax",
+        "Tantabus",
+        "Toad",
+        "Viridithas",
+        "Yukari",
+        "bannou",
+        "ice4"
     ]
 }
