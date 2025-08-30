@@ -1,6 +1,6 @@
 {
     "client_version": 35,
-    "client_repo_url": "https://github.com/dannyhammer/openbench",
+    "client_repo_url": "https://github.com/TheRealGioviok/OpenBench",
     "client_repo_ref": "master",
 
     "use_cross_approval": false,
