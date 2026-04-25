@@ -4,7 +4,6 @@ OpenBench/migrations/*
 
 credentials
 credentials.*
-db.sqlite3
 
 Scripts/Engines/*
 Scripts/Networks/*
