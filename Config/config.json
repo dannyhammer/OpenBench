@@ -1,5 +1,5 @@
 {
-    "client_version"  : 36,
+    "client_version"  : 37,
     "client_repo_url" : "https://github.com/toanth/OpenBench",
     "client_repo_ref" : "master",
 
@@ -7,7 +7,7 @@
     "require_login_to_view"       : false,
     "require_manual_registration" : true,
     "balance_engine_throughputs"  : true,
-
+  
     "books": [
         "2moves_v1.epd",
         "3moves_FRC.epd",
@@ -30,14 +30,19 @@
         "BoyChesser",
         "ByteKnight",
         "Caps",
+        "Chessatron",
         "Dog",
+        "Episteme",
         "Ethereal",
         "FabChess",
         "GrandChess",
         "Igel",
         "Obsidian",
         "Pawnocchio",
+        "Perseus",
         "Polaris",
+        "Rose",
+        "Soul",
         "Stash",
         "Stockfish",
         "Stormphrax",
